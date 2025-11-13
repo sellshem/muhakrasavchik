@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Добавить пользователя</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="back">← Назад на главную</a>
+  </header>
+  <main>
+    <h2>Добавить пользователя</h2>
+    <form id="userForm">
+      <label>Имя: <input type="text" id="name" required></label><br><br>
+      <label>Email: <input type="email" id="email" required></label><br><br>
+      <button type="submit">Сохранить</button>
+    </form>
+    <h3>Список пользователей:</h3>
+    <ul id="userList"></ul>
+  </main>
+  <script src="form.js"></script>
+</body>
+</html>
